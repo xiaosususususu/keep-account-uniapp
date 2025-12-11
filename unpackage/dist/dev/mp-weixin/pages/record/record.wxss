@@ -1,0 +1,116 @@
+
+.container {
+	padding: 30rpx;
+	min-height: 100vh;
+	background-color: #f5f5f5;
+}
+.empty-tip {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 100rpx 0;
+	color: #999;
+}
+.go-to-players {
+	margin-top: 30rpx;
+}
+.record-form {
+	background-color: #fff;
+	border-radius: 15rpx;
+	padding: 30rpx;
+	box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.1);
+}
+.form-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40rpx;
+	padding-bottom: 20rpx;
+	border-bottom: 1rpx solid #eee;
+}
+.title {
+	font-size: 36rpx;
+	font-weight: bold;
+	color: #333;
+}
+.current-date {
+	font-size: 28rpx;
+	color: #666;
+}
+.players-input {
+}
+.player-score-input {
+	margin-bottom: 40rpx;
+	padding: 25rpx;
+	background-color: #f8f8f8;
+	border-radius: 10rpx;
+}
+.player-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+.player-name {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #333;
+}
+.current-score {
+	font-size: 26rpx;
+	color: #666;
+}
+.input-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 20rpx;
+}
+.score-btn {
+	width: 80rpx;
+	height: 70rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 28rpx;
+	border-radius: 8rpx;
+}
+.minus {
+	background-color: #fff2f0;
+	color: #ff4d4f;
+	border: 1rpx solid #ffccc7;
+}
+.plus {
+	background-color: #e6f7e6;
+	color: #52c41a;
+	border: 1rpx solid #b7eb8f;
+}
+.score-input {
+	flex: 1;
+	height: 70rpx;
+	padding: 0 20rpx;
+	border: 1rpx solid #ddd;
+	border-radius: 8rpx;
+	font-size: 30rpx;
+	text-align: center;
+	background-color: #fff;
+}
+.form-actions {
+	display: flex;
+	gap: 20rpx;
+	margin-top: 40rpx;
+}
+.reset-btn, .save-btn {
+	flex: 1;
+	height: 80rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32rpx;
+	border-radius: 8rpx;
+}
+.reset-btn {
+	background-color: #f5f5f5;
+	color: #666;
+	border: 1rpx solid #ddd;
+}

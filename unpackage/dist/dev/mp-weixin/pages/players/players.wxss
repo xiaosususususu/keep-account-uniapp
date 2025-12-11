@@ -1,0 +1,87 @@
+
+.container {
+	padding: 20rpx;
+}
+.header {
+	margin-bottom: 30rpx;
+}
+.add-btn {
+	width: 100%;
+}
+.players-list {
+	background-color: #fff;
+	border-radius: 10rpx;
+	padding: 20rpx;
+}
+.empty-tip {
+	text-align: center;
+	color: #999;
+	padding: 50rpx 0;
+}
+.player-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20rpx 0;
+	border-bottom: 1rpx solid #eee;
+}
+.player-item:last-child {
+	border-bottom: none;
+}
+.player-info {
+	flex: 1;
+}
+.player-name {
+	font-size: 32rpx;
+	color: #333;
+	margin-right: 20rpx;
+}
+.player-score {
+	font-size: 28rpx;
+	color: #666;
+}
+.player-actions {
+	display: flex;
+	gap: 20rpx;
+}
+.edit-btn, .delete-btn {
+	min-width: 100rpx;
+}
+.modal-mask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+}
+.modal-content {
+	background-color: #fff;
+	padding: 40rpx;
+	border-radius: 10rpx;
+	width: 80%;
+}
+.modal-title {
+	font-size: 32rpx;
+	font-weight: bold;
+	margin-bottom: 30rpx;
+	text-align: center;
+}
+.player-input {
+	border: 1rpx solid #ddd;
+	padding: 20rpx;
+	border-radius: 5rpx;
+	margin-bottom: 30rpx;
+}
+.modal-buttons {
+	display: flex;
+	justify-content: space-between;
+	gap: 20rpx;
+}
+.cancel-btn, .confirm-btn {
+	flex: 1;
+}

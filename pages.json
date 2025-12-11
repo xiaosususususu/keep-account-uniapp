@@ -1,0 +1,67 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "打牌记账"
+			}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "记账"
+			}
+		},
+		{
+			"path": "pages/history/history",
+			"style": {
+				"navigationBarTitleText": "历史记录"
+			}
+		},
+		{
+			"path": "pages/players/players",
+			"style": {
+				"navigationBarTitleText": "玩家管理"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/record/record",
+				"iconPath": "static/tab-record.png",
+				"selectedIconPath": "static/tab-record-active.png",
+				"text": "记账"
+			},
+			{
+				"pagePath": "pages/history/history",
+				"iconPath": "static/tab-history.png",
+				"selectedIconPath": "static/tab-history-active.png",
+				"text": "历史"
+			},
+			{
+				"pagePath": "pages/players/players",
+				"iconPath": "static/tab-players.png",
+				"selectedIconPath": "static/tab-players-active.png",
+				"text": "玩家"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "打牌记账",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

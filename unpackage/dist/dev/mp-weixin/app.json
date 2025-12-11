@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/record/record",
+    "pages/history/history",
+    "pages/players/players"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "打牌记账",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "iconPath": "static/tab-record.png",
+        "selectedIconPath": "static/tab-record-active.png",
+        "text": "记账"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "iconPath": "static/tab-history.png",
+        "selectedIconPath": "static/tab-history-active.png",
+        "text": "历史"
+      },
+      {
+        "pagePath": "pages/players/players",
+        "iconPath": "static/tab-players.png",
+        "selectedIconPath": "static/tab-players-active.png",
+        "text": "玩家"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
